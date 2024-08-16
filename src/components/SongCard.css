@@ -1,0 +1,70 @@
+.song-card {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.album-cover {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.song-info {
+    flex: 1;
+    text-align: left;
+}
+
+.song-name {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.artist-name {
+    font-size: 1rem;
+    margin: 0;
+    color: #999;
+}
+
+.song-card-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 20px;
+}
+
+.play-button, .add-to-playlist-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.play-button {
+    background-color: #38b6ff;
+    color: #fff;
+}
+
+.add-to-playlist-button {
+    background-color: #ff4c61;
+    color: #fff;
+}
+
+.play-button:hover {
+    background-color: #007acc;
+}
+
+.add-to-playlist-button:hover {
+    background-color: #ff1c3a;
+}
+
